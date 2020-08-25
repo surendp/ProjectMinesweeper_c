@@ -9,7 +9,22 @@
 - To win the game the player needs to marks all the mines
 - If the player steps on a mine game is over
 
-## How to play
+## How to run the game
 
 - Clone the repository
 - Windows user can open the 'win_mine_sweeper.exe' file
+
+#### Linux users
+
+- Clone the repository
+- Install the gcc compiler
+- Compile the 'mine_sweeper.c' code
+
+```
+  gcc -o mine_sweeper.c mine_sweeper
+```
+- Run the mine_sweeper file
+
+```
+  ./mine_sweeper
+```
